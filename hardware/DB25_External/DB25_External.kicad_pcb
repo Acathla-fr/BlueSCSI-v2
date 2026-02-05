@@ -18629,7 +18629,7 @@
 		(uuid "fb3ed0cd-9280-4527-a247-4ed583344551")
 	)
 	(gr_text "fabien@acathla.tk"
-		(at 106.5 79 0)
+		(at 106.57 78.1 0)
 		(layer "F.Mask")
 		(uuid "6dd0ebd3-b1ca-4e15-9873-cb7bfcaee873")
 		(effects
@@ -18640,7 +18640,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "BlueSCSI © Eric Helgeson\nRouting & mods by"
+	(gr_text "PCB by"
 		(at 113.1 75.9 0)
 		(layer "F.SilkS")
 		(uuid "3e66ce92-220c-4a00-a7df-5b03ba6df52b")
@@ -18756,6 +18756,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "BlueSCSI © Eric Helgeson\nPCB © Tech by Androda, LLC"
+		(at 119.72 110.34 90)
+		(layer "B.SilkS")
+		(uuid "b3038855-bdf8-456c-8911-6bb8ed05cff5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "BlueSCSI V2 - 2024.01a\nLicensed under CERN-OHL-S v2\nhttps://ohwr.org/cern_ohl_s_v2.txt"
 		(at 124.9 110.8 90)
 		(layer "B.SilkS")
@@ -18829,6 +18841,14 @@
 		(uuid "296a92b6-7353-49c1-a1c1-b815b8e31bc7")
 	)
 	(segment
+		(start 140.649999 118.225)
+		(end 140.65 116.93)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "29ce2e85-4534-4c97-8652-d4b7d1603a5e")
+	)
+	(segment
 		(start 115.85 91.4575)
 		(end 115.4575 91.85)
 		(width 0.4)
@@ -18851,14 +18871,6 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "33c9e43d-6189-4c92-8035-3d8ca408724e")
-	)
-	(segment
-		(start 140.649999 118.225)
-		(end 140.649999 117.897503)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "35e72ae2-8988-4db7-a6c3-a5fbda361f07")
 	)
 	(segment
 		(start 119.062722 108.145)
@@ -19075,14 +19087,6 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "7d714a7c-5c46-45f3-9d34-2181b9d0d7b9")
-	)
-	(segment
-		(start 140.649999 117.897503)
-		(end 140.7 117.847502)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "7ef8a59a-95fb-4d2c-a080-4e9f7ef53379")
 	)
 	(segment
 		(start 107.144821 120.095456)
@@ -19518,7 +19522,7 @@
 		(uuid "61fac11e-c0a9-4eaf-bd67-c7e54c731019")
 	)
 	(via
-		(at 140.7 117.847502)
+		(at 140.65 116.93)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
