@@ -10,7 +10,7 @@ The modifications are :
 
  * The DB25 connector is mounted in the middle side of the PCB
  
-image::Pictures/DB25_External_3D.png[link=https://github.com/Acathla-fr/BlueSCSI-v2/blob/main/hardware/DB25_External/DB25_External_3D.png, 400]
+image::Pictures/DB25_External_3D.png[link=https://github.com/Acathla-fr/BlueSCSI-v2/blob/main/hardware/DB25_External/Pictures/DB25_External_3D.png, 400]
 
  * The pico is soldered under the board with no component in between
  * All passive components are 0805 handsolderable, only a few resistors are under the board
@@ -22,3 +22,5 @@ and assembled with a voltera V-One for the solder paste dispensing,
 a small pick&place machine (Neoden YY1) for most passives and the rest by hand.
 
 Reflow was done on a hot plate.
+
+image::Pictures/DB25_External_back.png[link=https://github.com/Acathla-fr/BlueSCSI-v2/blob/main/hardware/DB25_External/Pictures/DB25_External_back.png, 400]
