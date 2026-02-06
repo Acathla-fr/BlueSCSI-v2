@@ -1,0 +1,24 @@
+# DB25 External BlueSCSI
+
+This is a forked and modified BlueSCSI DB25 External PCB.
+
+It's fully compatible with the original software.
+
+The goal was first to make a PCB anyone can solder at home.
+
+The modifications are :
+
+ * The DB25 connector is mounted in the middle side of the PCB
+ 
+image::Pictures/DB25_External_3D.png[link=https://github.com/Acathla-fr/BlueSCSI-v2/blob/main/hardware/DB25_External/DB25_External_3D.png, 400]
+
+ * The pico is soldered under the board with no component in between
+ * All passive components are 0805 handsolderable, only a few resistors are under the board
+ * New microSD card connector, with sping
+ * Almost every component is available on mouser or digikey if you want to assemble it yourself
+
+For the first batch of 9 circuits, the PCBs were made by AISLER (Germany) 
+and assembled with a voltera V-One for the solder paste dispensing, 
+a small pick&place machine (Neoden YY1) for most passives and the rest by hand.
+
+Reflow was done on a hot plate.
