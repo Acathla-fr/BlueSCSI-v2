@@ -1522,7 +1522,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1uF"
 			(at 154.94 72.39 0)
 			(effects
 				(font
@@ -1658,7 +1658,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "2.2K"
 			(at 144.78 52.07 90)
 			(effects
 				(font
